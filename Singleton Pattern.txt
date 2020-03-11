@@ -1,0 +1,2 @@
+Sử dụng khi nhiều Class hoặc clent yêu cầu cho class đó sẽ nhận được thheer hiện của class
+đó. Dùng trực tiếp class này hoặc chuyển sang một class khác: OkHttpClient, HttpLoggingInterceptor, Retrofit, Gson, SharedPreference
