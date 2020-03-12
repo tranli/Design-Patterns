@@ -1,0 +1,2 @@
+Builder Pattern: Xuất hiện khi sử dụng những đối tượng như AlertDialog.Builder hay NotificationCompat.Builder
+(static nested classes để tránh Memory leak khi tạo lớp Builder bên trong lớp model)

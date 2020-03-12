@@ -1,0 +1,19 @@
+* RoboGuice:
+Thêm Roboguice vào trong file build.gradle
+groovy compile 'org.roboguice:roboguice:3.0.1'
+Để cải thiện hiệu suất của RoboGuice, thì thêm RoboBlender - một bộ xử lý chú thích làm provided phụ thuộc
+
+groovy provided 'org.roboguice:roboblender:3.0.1'
+
+Để sử dụng các chú thích của Roboguice trong các Activity thì phải extends RoboActivity thay vì extends Activity. Tương tự với service thì extends RoboService thay vì Service
+@InjectView thay cho findViewById
+@InjectResouce cho ColoStateList, Drawable, String, Animation
+@InjectExtra(value="", oprional = true)
+
+Injecting Resources
+Injecting System Services
+Injecting extras
+Injecting Your Own Classes
+Using Custom Providers
+Working With Singletons
+Observing Events
